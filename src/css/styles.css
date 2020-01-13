@@ -1,0 +1,67 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+button:focus,
+span:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+.TextInputField + p,
+.SelectField + p {
+  color: #bf0e08 !important;
+}
+.ph-16 {
+  padding: 0 16px;
+}
+.pt-midium {
+  padding-top: 35px;
+}
+.p-left {
+  padding-left: 15%;
+}
+.p-right {
+  padding-right: 15%;
+}
+.text-input-field {
+  margin-bottom: 0;
+}
+.line-through {
+  text-decoration: line-through;
+}
+.sideBarContainer {
+  min-height: calc(100vh - 60px);
+  padding-left: calc(15vw - 16px);
+}
+.sideBarContainer nav {
+  width: 100%;
+}
+
+.sideBarContainer button {
+  margin-right: 16px;
+}
+
+/*theming*/
+.darkBgTypo svg {
+  fill: #e4e7eb !important;
+}
+.darkBgInput {
+  border: 1px solid #e4e7eb42;
+  background-color: #ffffff05;
+  color: #e4e7eb;
+}
+
+.searchResult div div:last-child {
+  border: none;
+}
+
+nav div[data-isselectable="true"] {
+  cursor: pointer;
+  outline: none;
+}
+
+nav div[data-isselectable="true"].activeMenu,
+nav div[data-isselectable="true"]:hover {
+  background-color: rgba(16, 112, 202, 0.06) !important;
+}
